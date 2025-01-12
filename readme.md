@@ -66,11 +66,18 @@ In order to understand **useState** hook take a look at 02_useStateProject. You 
 In order to understand all these 3 hooks take a look at markdown file of project 03_passwordGenerator. There are actually a lot more things in those hooks and they may be confusing initially. Consider exploring documentation and reading quite a few articles to understand the actual use case of these 3 hooks.
 
 ### 3. useId Hook and Custom Hooks in React
+
 To understand these hooks take a loot at the project 04_currencyConvertor. Hooks that are created by user which includes **made up react hooks** are known as **custom hooks**. And they are also functions in javascript. A hook's name must start with the word **use...**. So any function which has **use** as their prefix is known as hook.
 
 The **useId** hook is basically used to link **label and input** in my project. It does not have that much implementation.
 
 > Do NOT useId() to generate unique keys because React says it.
+
+## Third Party Libraries
+
+### 1. React Router
+
+React Router is a third party library that is used in react projects to allow users to interact and navigate within the react application by creating various routes. It is the first and one of the most important library that is used for routing. It also provide us hooks to capture route parameters.
 
 ## Project List
 
@@ -93,3 +100,8 @@ This is a project that is used to generate a random password of specified length
 
 This is a simple currency convertor project which fetches data from external source api and then populates the change on users demand on user based interaction. It also has a swap functionality where user can instantly switch between **to and from**.
 <img src="./00_Projects_ScreenShots/project4.png" />
+
+### 05 Project To Implement React Router
+
+This is not any kind of functional project. This project basically demonstrates the use of react-router to navigate within the react web application.
+<img src="./00_Projects_ScreenShots/project5.png" />
