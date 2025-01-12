@@ -58,6 +58,10 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 In order to understand **useState** hook take a look at 02_useStateProject. You will understand all the key concepts of this hook. This is the first and the most basic hook that you will find in any tutorial.
 
+### 2. useEffect Hook, useRef Hook and useCallback Hook in React
+
+In order to understand all these 3 hooks take a look at markdown file of project 03_passwordGenerator. There are actually a lot more things in those hooks and they may be confusing initially. Consider exploring documentation and reading quite a few articles to understand the actual use case of these 3 hooks
+
 ## Project List
 
 ### 01 Counter Project
@@ -69,3 +73,8 @@ A simple counter project where user can increase counter value by 1. The minimum
 
 This project demonstrates the working of the useState hook in react to get all details take a look into the counter component of this project and its specific markdown file.
 <img src="./00_Projects_ScreenShots/project2.png" />
+
+### 03 Password Generator Project
+
+This is a project that is used to generate a random password of specified length. User can choose whether to include number and special characters in the password or not. It also has a copy to clipboard button and the copied text is highlighted with the use of useRef hook.
+<img src="./00_Projects_ScreenShots/project3.png" />
