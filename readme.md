@@ -54,13 +54,23 @@ ReactDOM.render(<App />, document.getElementById('root'));
 > **What are props ?** <br/>
 > Props is short for "properties". It is a readonly object and it is used to pass data from a parent component to child component. This helps us with component reusability and allows dynamic values to be passed and accessed within the child component. The data flow in react is unidirectional it means that only top level component can pass data to lower level components and the reverse is not allowed.
 
+> **What are key props?** <br/>
+> When you try to render similar type of items using map() method then each item should be assigned a **key prop**. Not passing a key prop will highly degrade the performance. The **key prop** should be unique so that react could differentiate between those similar kinds of generated element. You can use **array index** as key prop, but it is **not recommended**. Explore on chatGPT why is it so??🔍
+
 ### 1. useState Hook in React
 
 In order to understand **useState** hook take a look at 02_useStateProject. You will understand all the key concepts of this hook. This is the first and the most basic hook that you will find in any tutorial.
 
 ### 2. useEffect Hook, useRef Hook and useCallback Hook in React
 
-In order to understand all these 3 hooks take a look at markdown file of project 03_passwordGenerator. There are actually a lot more things in those hooks and they may be confusing initially. Consider exploring documentation and reading quite a few articles to understand the actual use case of these 3 hooks
+In order to understand all these 3 hooks take a look at markdown file of project 03_passwordGenerator. There are actually a lot more things in those hooks and they may be confusing initially. Consider exploring documentation and reading quite a few articles to understand the actual use case of these 3 hooks.
+
+### 3. useId Hook and Custom Hooks in React
+To understand these hooks take a loot at the project 04_currencyConvertor. Hooks that are created by user which includes **made up react hooks** are known as **custom hooks**. And they are also functions in javascript. A hook's name must start with the word **use...**. So any function which has **use** as their prefix is known as hook.
+
+The **useId** hook is basically used to link **label and input** in my project. It does not have that much implementation.
+
+> Do NOT useId() to generate unique keys because React says it.
 
 ## Project List
 
@@ -78,3 +88,8 @@ This project demonstrates the working of the useState hook in react to get all d
 
 This is a project that is used to generate a random password of specified length. User can choose whether to include number and special characters in the password or not. It also has a copy to clipboard button and the copied text is highlighted with the use of useRef hook.
 <img src="./00_Projects_ScreenShots/project3.png" />
+
+### 04 Currency Convertor Using API
+
+This is a simple currency convertor project which fetches data from external source api and then populates the change on users demand on user based interaction. It also has a swap functionality where user can instantly switch between **to and from**.
+<img src="./00_Projects_ScreenShots/project4.png" />
