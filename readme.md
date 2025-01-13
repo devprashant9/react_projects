@@ -105,3 +105,9 @@ This is a simple currency convertor project which fetches data from external sou
 
 This is not any kind of functional project. This project basically demonstrates the use of react-router to navigate within the react web application.
 <img src="./00_Projects_ScreenShots/project5.png" />
+
+
+### 06 Context API Demo Implementation
+
+This project illustrates how contextAPI can be used to store state at a global space and can be accessed by all components without unwanted prop drilling.
+<img src="./00_Projects_ScreenShots/project6.png" />
