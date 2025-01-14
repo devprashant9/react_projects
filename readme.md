@@ -73,6 +73,10 @@ The **useId** hook is basically used to link **label and input** in my project. 
 
 > Do NOT useId() to generate unique keys because React says it.
 
+### 4. useContext Hook in React
+
+This requires firstly requires a setup and then it comes into picture. Take a look at **markdown** file of project **06_contextApiDemo** in order to grab basic understanding and also the **7th and 8th** project as they also include the concept of **useContext**.
+
 ## Third Party Libraries
 
 ### 1. React Router
@@ -106,8 +110,12 @@ This is a simple currency convertor project which fetches data from external sou
 This is not any kind of functional project. This project basically demonstrates the use of react-router to navigate within the react web application.
 <img src="./00_Projects_ScreenShots/project5.png" />
 
-
 ### 06 Context API Demo Implementation
 
 This project illustrates how contextAPI can be used to store state at a global space and can be accessed by all components without unwanted prop drilling.
 <img src="./00_Projects_ScreenShots/project6.png" />
+
+### 07 Toggle Theme Using Context API
+
+This project demonstrates that how with the help of only one click websites switches from light theme to dark theme or vice-versa with Tailwind CSS. This project also uses Context API but in a more compact approach.
+<img src="./00_Projects_ScreenShots/project7.png" />
