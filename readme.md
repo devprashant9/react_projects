@@ -88,7 +88,7 @@ React Router is a third party library that is used in react projects to allow us
 ### 01 Counter Project
 
 A simple counter project where user can increase counter value by 1. The minimum value is 0 and the maximum vaue is 20.
-<img src="./00_Projects_ScreenShots/project1.png" />
+<img src="./00_Projects_ScreenShots/project1.png" width="400px" />
 
 ### 02 useStete Project
 
@@ -119,3 +119,8 @@ This project illustrates how contextAPI can be used to store state at a global s
 
 This project demonstrates that how with the help of only one click websites switches from light theme to dark theme or vice-versa with Tailwind CSS. This project also uses Context API but in a more compact approach.
 <img src="./00_Projects_ScreenShots/project7.png" />
+
+### 08 ToDo Application Using Context API
+
+This project demonstrates that how with the help of only one click websites switches from light theme to dark theme or vice-versa with Tailwind CSS. This project also uses Context API but in a more compact approach.
+<img src="./00_Projects_ScreenShots/project8.png" />
