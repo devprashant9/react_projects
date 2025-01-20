@@ -1,0 +1,16 @@
+{
+  "name": "09_reduxtoolkit",
+  "version": "1.0.0",
+  "description": "Redux is a library that is used for state management just like Context API but in a different way. Redux is not limited to react only it can be used with Angular, Vue and other frameworks as well. Redux is Predictable, Centralized, Debuggable and Flexible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.13.3",
+    "redux": "^5.0.1"
+  }
+}
