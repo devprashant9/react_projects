@@ -1,0 +1,16 @@
+{
+  "name": "03_complexstate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "complexState.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.13.3",
+    "redux": "^5.0.1"
+  }
+}
