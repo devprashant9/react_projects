@@ -3,6 +3,14 @@ export const CART_REMOVE_ITEM = "cart/removeItems";
 export const CART_INCREASE_QUANTITY = "cart/increaseQuantity";
 export const CART_DECREASE_QUANTITY = "cart/decreaseQuantity";
 
+// Action Creators
+export function addCartItem(productId){
+  return({
+    type: CART_ADD_ITEM,
+    payload: { productId: productId, quantity: 1 },
+  })
+}
+
 export default function cartReducer(state = [], action) {
   switch (action.type) {
     case CART_ADD_ITEM:

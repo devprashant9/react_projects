@@ -1,6 +1,6 @@
 import { createStore, combineReducers } from "redux";
 import productReducer from "./ProductReducer";
-import cartReducer, { CART_ADD_ITEM, CART_REMOVE_ITEM } from "./cartReducer";
+import cartReducer, { addCartItem, CART_ADD_ITEM, CART_REMOVE_ITEM } from "./cartReducer";
 import wishListReducer from "./wishListReducer";
 import customCombineReducers from "./customCombineReducers";
 
@@ -33,3 +33,7 @@ store.dispatch({
   type: CART_REMOVE_ITEM,
   payload: { productId: 1 },
 });
+
+store.dispatch(addCartItem(1));
+store.dispatch(addCartItem(10));
+store.dispatch(addCartItem(18));
