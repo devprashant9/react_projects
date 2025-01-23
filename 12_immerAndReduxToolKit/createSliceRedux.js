@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { configureStore, createSlice } from "@reduxjs/toolkit";
 
 const products = [
   {
@@ -61,7 +61,7 @@ const existingItemIndex = (state, action) => {
   );
 };
 
-const sliceCart = createSlice ({
+const sliceCart = createSlice({
   name: "cart",
   initialState: [],
   reducers: {
@@ -79,5 +79,38 @@ const sliceCart = createSlice ({
   },
 });
 
-console.log(sliceCart)
-// slicecart.reducer is the actual reducer formed
+// console.log(sliceCart);
+// // slicecart.reducer is the actual reducer formed
+
+// const store1 = configureStore({ reducers });
+
+// const store2 = configureStore({
+//   reducers: {
+//     products: productsSlice,
+//     cart: createSlice,
+//     wishList: wishListSlice,
+//   },
+//   middleware: [logger1],
+// });
+
+
+// function logger1(store) {
+//     return function(next) {
+//         return function (action) {
+//             console.log(store)
+//             console.log(next)
+//             console.log(action)
+
+//             next(action);
+//         }
+//     }
+// }
+
+
+// const logger2 = (store) => (next) => (action) {
+//     console.log(store)
+//             console.log(next)
+//             console.log(action)
+
+//             next(action);
+// }
